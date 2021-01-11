@@ -1,0 +1,105 @@
+////
+NO CAMBIAR!!
+Codificación, idioma, tabla de contenidos, tipo de documento
+////
+:encoding: utf-8
+:lang: es
+:doctype: book
+:imagesdir: ./images
+:linkattrs:
+
+
+////
+Nombre y título del trabajo
+////
+# Guía de operaciones en OpenStack-DI
+Cloud-DI Team <clouddi@ual.es>
+
+
+// NO CAMBIAR!! (Entrar en modo no numerado de apartados)
+:numbered!: 
+
+
+image:di.png[]
+
+## Habituales
+
+* https://ualmtorres.github.io/OpenStackDI/#truecreaci-n-de-una-m-quina-virtual[Crear instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueiniciar-reiniciar-y-apagar-una-m-quina-virtual[Iniciar/reiniciar/apagar instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueasignaci-n-de-ip-flotante[Asignar IP flotante,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truegeneraci-n-de-claves-ssh[Crear par de claves,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconfiguraci-n-de-las-reglas-de-seguridad[Definir reglas de seguridad,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truecreaci-n-de-un-volumen[Crear volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconexi-n-de-un-volumen-a-una-instancia[Conectar un volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truecreaci-n-de-un-volumen-nfs[Crear volumen NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconfiguraci-n-de-las-reglas-de-acceso[Añadir reglas de acceso NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconexi-n-de-un-volumen-nfs-a-una-instancia[Añadir volumen NFS a instancia,window=_blank]
+
+## Usuarios
+
+* https://ualmtorres.github.io/OpenStackDI/#truecambio-de-la-contrase-a[Cambiar contraseña,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truegeneraci-n-de-claves-ssh[Crear par de claves,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truerestablecer-contrase-a[Restablecer contraseña (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truecrear-usuario[Crear usuario,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truedesactivar-activar-usuario[Desactivar/activar usuario (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueeliminar-usuario[Eliminar usuario (admin),window=_blank]
+
+## Instancias
+
+* https://ualmtorres.github.io/OpenStackDI/#truecreaci-n-de-una-m-quina-virtual[Crear instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueaprovisionamiento-de-una-instancia-durante-la-creaci-n[Crear instancia preconfigurada,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truecreaci-n-de-una-instancia-con-acceso-mediante-login-y-password[Crear instancia con acceso login y password,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueasignaci-n-de-ip-flotante[Asignar IP flotante,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueiniciar-reiniciar-y-apagar-una-m-quina-virtual[Iniciar/reiniciar/apagar instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconexi-n-de-un-volumen-a-una-instancia[Añadir volumen a instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconexi-n-de-un-volumen-nfs-a-una-instancia[Añadir volumen NFS a instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truecrear-snapshot-de-una-instancia[Crear snapshot,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truea-adir-claves-ssh[Añadir claves SSH adicionales,window=_blank]
+* $$link:instancias-conectar-red.html[Conectar a otra red,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueredimensionar-una-instancia[Redimensionar instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truemover-instancia[Mover instancia (admin),window=_blank]
+
+## Almacenamiento de bloques
+
+* https://ualmtorres.github.io/OpenStackDI/#truecreaci-n-de-un-volumen[Crear volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconexi-n-de-un-volumen-a-una-instancia[Conectar volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truedesconexi-n-de-un-volumen[Desconectar volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueextender-un-volumen[Extender volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truetransferir-un-volumen-a-otro-proyecto[Transferir volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueeliminar-volumen[Eliminar volumen,window=_blank]
+
+## Almacenamiento compartido
+
+* https://ualmtorres.github.io/OpenStackDI/#truecreaci-n-de-un-volumen-nfs[Crear volumen NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconfiguraci-n-de-las-reglas-de-acceso[Añadir reglas de acceso NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueextender-un-volumen-nfs[Extender volumen NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconexi-n-de-un-volumen-nfs-a-una-instancia[Añadir volumen NFS a instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueeliminar-un-volumen-nfs[Eliminar volumen NFS,window=_blank]
+
+## Imágenes
+
+* https://ualmtorres.github.io/OpenStackDI/#truesubir-una-imagen[Subir imagen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truecrear-snapshot-de-una-instancia[Crear snapshot,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueproteger-desproteger-una-imagen[Proteger imagen,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconvertir-una-imagen-en-p-blica[Convertir imagen en pública (admin),window=_blank]
+* http://ualmtorres.github.io/howtos/Windows7OpenStack/[Crear imagen Windows,window=_blank]
+
+## Proyectos
+
+* https://ualmtorres.github.io/OpenStackDI/#truecrear-proyecto[Crear proyecto (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueadministrar-miembros[Administrar miembros (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truemodificar-la-cuota-de-un-proyecto[Modificar cuota (admin),window=_blank]
+
+## Redes
+
+* https://ualmtorres.github.io/OpenStackDI/#trueconfiguraci-n-de-la-infraestructura-b-sica-de-red-de-un-proyecto[Configuración de la infraestructura de red básica de un proyecto,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truecrear-red-de-proyecto[Crear red,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truecrear-router-de-proyecto[Crear router,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truea-adir-interfaz-al-router[Crear interfaz,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueconfiguraci-n-de-las-reglas-de-seguridad[Definir reglas de seguridad,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueasignaci-n-de-ip-flotante[Crear IP flotante,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#trueasignar-ip-flotante-a-un-proyecto[Asignar IP flotante a un proyecto,window=_blank]
+* https://ualmtorres.github.io/OpenStackDI/#truebalanceadores-como-servicio-lbaas[Crear balanceador,window=_blank]
+
+
+
